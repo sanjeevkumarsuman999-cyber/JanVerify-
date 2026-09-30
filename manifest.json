@@ -1,7 +1,7 @@
 {
   "name": "JanVerify",
   "short_name": "JanVerify",
-  "start_url": "/JanVerify/index.html",
+  "start_url": "/JanVerify/",
   "scope": "/JanVerify/",
   "id": "/JanVerify/",
   "display": "standalone",
