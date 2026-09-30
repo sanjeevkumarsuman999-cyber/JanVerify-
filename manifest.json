@@ -1,9 +1,9 @@
 {
   "name": "JanVerify",
   "short_name": "JanVerify",
-  "start_url": "/JanVerify/",
-  "scope": "/JanVerify/",
-  "id": "/JanVerify/",
+  "start_url": "/JanVerify-/",
+  "scope": "/JanVerify-/",
+  "id": "/JanVerify-/",
   "display": "standalone",
   "background_color": "#f8fafc",
   "theme_color": "#2563eb",
