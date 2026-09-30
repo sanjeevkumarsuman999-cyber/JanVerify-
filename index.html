@@ -137,13 +137,15 @@ if(state.user)start();
  const ob=new MutationObserver(()=>document.querySelectorAll('.card,.transaction-card,.case-card,.stat-card').forEach((e,i)=>{if(!e.dataset.jvAnimated){e.dataset.jvAnimated='1';e.style.animationDelay=Math.min(i*35,280)+'ms'}}));
  ob.observe(document.body,{childList:true,subtree:true});
 })();
-</script><script>
+</script>
+ <script>
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
-    navigator.serviceWorker.register("./service-worker.js")
-      .then(() => console.log("JanVerify Service Worker registered"))
-      .catch(error => console.error("Service Worker error:", error));
+    navigator.serviceWorker.register("/JanVerify/service-worker.js")
+      .then((reg) => console.log("Service Worker Registered!", reg))
+      .catch((err) => console.error("Service Worker Failed!", err));
   });
 }
-</script></body>
+</script>
+   </body>
 </html>
