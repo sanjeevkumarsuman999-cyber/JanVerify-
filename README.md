@@ -1,29 +1,46 @@
-Hi, I'm Sanjeev Kumar Suman 👋
+JanVerify
 
-I'm a student developer building practical technology projects with a focus on transparency, public impact, and useful digital solutions.
+Technology for transparency, citizen verification, and public impact.
 
-🚀 What I'm Building
+JanVerify is a citizen-focused technology project designed to help improve transparency in the Public Distribution System (PDS) by allowing beneficiaries to verify what they actually received against government-recorded transactions.
 
-- JanVerify — a citizen-focused project exploring technology for greater transparency in public distribution systems.
-- Future Projects — continuing to build and experiment with practical digital products.
+🎯 Purpose
+
+The goal of JanVerify is to create a simple and accessible verification layer between government transaction records and the beneficiary's actual experience.
+
+🚀 Key Features
+
+- Government transaction records for beneficiaries
+- Separate verification for Rice and Wheat
+- Verification options: Full, Less, Not Received, and Other Issue
+- Quantity reporting when the received amount is less
+- Government record vs beneficiary verification comparison
+- Case generation when a mismatch or issue is identified
+- Transaction and case history
+- Beneficiary profile
+- Guest access for exploring the interface
+
+🔄 How It Works
+
+1. A government transaction record is received by the system.
+2. The beneficiary views the recorded transaction.
+3. The beneficiary verifies the Rice and Wheat received.
+4. JanVerify compares the beneficiary's response with the government record.
+5. A mismatch or reported issue can be identified as a case for further review.
+
+🏗️ Technology
+
+JanVerify is being developed as a web-based application using modern web technologies and a backend powered by Supabase.
+
+🌱 Vision
+
+To build practical technology that helps make public services more transparent, accountable, and accessible to citizens.
 
 🏢 Organization
 
 JanKanti Technologies
 
-A technology initiative focused on building useful, responsible, and impact-oriented digital solutions.
-
-💻 Interests
-
-- Web Development
-- Software & App Development
-- Digital Public Services
-- Technology for Social Impact
-- Learning & Building with New Technologies
-
-🎯 Vision
-
-To learn, build, and create technology that solves real-world problems and makes useful services more transparent and accessible.
+Building useful and responsible technology projects focused on real-world problems and public impact.
 
 ---
 
